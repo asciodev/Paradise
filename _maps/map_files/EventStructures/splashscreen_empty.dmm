@@ -2,15 +2,208 @@
 "a" = (
 /turf/simulated/wall/indestructible/riveted,
 /area/start)
+"d" = (
+/obj/effect/spawner/random_spawners/wall_rusted_always,
+/turf/simulated/wall,
+/area/start)
 "e" = (
-/obj/effect/landmark/newplayer_start,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"f" = (
+/obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
+/area/start)
+"g" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer{
+	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
+	name = "Broken Computer"
+	},
+/turf/simulated/floor/plasteel,
+/area/start)
+"h" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel,
+/area/start)
+"j" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "s"
+	},
+/turf/space,
+/area/start)
+"l" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "c"
+	},
+/turf/space,
+/area/start)
+"n" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "o"
+	},
+/turf/space,
+/area/start)
+"o" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "t"
+	},
+/turf/space,
+/area/start)
+"p" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "a"
+	},
+/turf/space,
+/area/start)
+"r" = (
+/turf/space,
+/area/start)
+"v" = (
+/obj/effect/spawner/window/reinforced/grilled,
+/turf/simulated/floor/plating,
+/area/start)
+"w" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"x" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"z" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/crowbar,
+/obj/item/flashlight/flare/glowstick/random,
+/turf/simulated/floor/plasteel,
+/area/start)
+"A" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "h"
+	},
+/turf/space,
+/area/start)
+"B" = (
+/obj/machinery/light/small,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"C" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/crowbar,
+/obj/item/flashlight/flare/glowstick/random,
+/turf/simulated/floor/plasteel,
 /area/start)
 "D" = (
 /turf/simulated/wall/r_wall,
 /area/start)
 "E" = (
-/turf/simulated/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"F" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "a";
+	in_use = ssssss
+	},
+/turf/space,
+/area/start)
+"G" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "r"
+	},
+/turf/space,
+/area/start)
+"J" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "l"
+	},
+/turf/space,
+/area/start)
+"K" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/insectguts,
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/plasteel,
+/area/start)
+"M" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
+/area/start)
+"O" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "n"
+	},
+/turf/space,
+/area/start)
+"Q" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "e"
+	},
+/turf/space,
+/area/start)
+"R" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper/fluff/ruins/oldstation,
+/turf/simulated/floor/plasteel,
+/area/start)
+"S" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/showcase/machinery/oldpod,
+/turf/simulated/floor/plasteel,
+/area/start)
+"T" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/showcase/machinery/oldpod,
+/turf/simulated/floor/plasteel,
+/area/start)
+"V" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass{
+	name = "Cryogenics Room"
+	},
+/turf/simulated/floor/plasteel,
+/area/start)
+"X" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "i"
+	},
+/turf/space,
 /area/start)
 
 (1,1,1) = {"
@@ -32,125 +225,129 @@ D
 "}
 (2,1,1) = {"
 D
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 D
 "}
 (3,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 a
 "}
 (4,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 a
 "}
 (5,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+d
+d
+d
+d
+d
+d
+d
+d
+r
+r
 a
 "}
 (6,1,1) = {"
 a
+r
+r
+r
+d
+d
+h
+C
+z
+C
 E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+d
+d
+r
 a
 "}
 (7,1,1) = {"
 a
+r
+l
+j
+d
+w
 E
 E
 E
 E
 E
-E
-E
-E
-E
-E
-E
-E
-E
+B
+d
+r
 a
 "}
 (8,1,1) = {"
 a
+r
+A
+o
+f
 E
+T
 E
+T
 E
+T
 E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+v
+r
 a
 "}
 (9,1,1) = {"
 a
+r
+F
+p
+f
 E
 E
 E
@@ -158,165 +355,161 @@ E
 E
 E
 E
-E
-E
-E
-E
-E
-E
+d
+r
 a
 "}
 (10,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
+r
+G
+o
+V
 e
-E
-E
-E
-E
-E
-E
+S
+e
+S
+e
+S
+M
+v
+r
 a
 "}
 (11,1,1) = {"
 a
+r
+J
+X
+f
+E
+E
+K
 E
 E
 E
 E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+d
+r
 a
 "}
 (12,1,1) = {"
 a
+r
+X
+n
+f
 E
+T
 E
+T
 E
+T
 E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+v
+r
 a
 "}
 (13,1,1) = {"
 a
+r
+Q
+O
+d
 E
 E
 E
 E
 E
 E
-E
-E
-E
-E
-E
-E
-E
+B
+d
+r
 a
 "}
 (14,1,1) = {"
 a
+r
+r
+r
+d
+d
+x
+g
+R
+g
 E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+d
+d
+r
 a
 "}
 (15,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+d
+d
+d
+d
+d
+d
+d
+d
+r
+r
 a
 "}
 (16,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 a
 "}
 (17,1,1) = {"
 a
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 a
 "}
 (18,1,1) = {"
 D
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
-E
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
 D
 "}
 (19,1,1) = {"

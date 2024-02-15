@@ -2,8 +2,8 @@
 	title = "Chief Medical Officer"
 	flag = JOB_CMO
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_COMMAND | DEP_FLAG_MEDICAL
 	supervisors = "the captain"
 	department_head = list("Captain")
@@ -46,8 +46,8 @@
 	title = "Medical Doctor"
 	flag = JOB_DOCTOR
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 5
-	spawn_positions = 3
+	total_positions = 1
+	spawn_positions = 1
 	job_department_flags = DEP_FLAG_MEDICAL
 	supervisors = "the chief medical officer"
 	department_head = list("Chief Medical Officer")
@@ -63,25 +63,20 @@
 	name = "Medical Doctor"
 	jobtype = /datum/job/doctor
 
-	uniform = /obj/item/clothing/under/rank/medical/doctor
-	suit = /obj/item/clothing/suit/storage/labcoat
-	shoes = /obj/item/clothing/shoes/white
-	l_ear = /obj/item/radio/headset/headset_med
-	id = /obj/item/card/id/medical
-	suit_store = /obj/item/flashlight/pen
-	l_hand = /obj/item/storage/firstaid/doctor
-	pda = /obj/item/pda/medical
+	uniform = /obj/item/clothing/under/retro/medical
+	shoes = /obj/item/clothing/shoes/black
+	id = /obj/item/card/id/away/old/med
+	l_pocket = /obj/item/stack/medical/ointment
+	r_pocket = /obj/item/stack/medical/ointment
 
-	backpack = /obj/item/storage/backpack/medic
-	satchel = /obj/item/storage/backpack/satchel_med
-	dufflebag = /obj/item/storage/backpack/duffel/medical
+	l_hand = /obj/item/storage/firstaid/doctor
 
 /datum/job/coroner
 	title = "Coroner"
 	flag = JOB_CORONER
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_MEDICAL
 	supervisors = "the chief medical officer"
 	department_head = list("Chief Medical Officer")
@@ -142,8 +137,8 @@
 	title = "Chemist"
 	flag = JOB_CHEMIST
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_MEDICAL
 	supervisors = "the chief medical officer"
 	department_head = list("Chief Medical Officer")
@@ -175,8 +170,8 @@
 	title = "Geneticist"
 	flag = JOB_GENETICIST
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_MEDICAL | DEP_FLAG_SCIENCE
 	supervisors = "the chief medical officer and the research director"
 	department_head = list("Chief Medical Officer", "Research Director")
@@ -208,8 +203,8 @@
 	title = "Virologist"
 	flag = JOB_VIROLOGIST
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_MEDICAL
 	supervisors = "the chief medical officer"
 	department_head = list("Chief Medical Officer")
@@ -257,13 +252,12 @@
 	name = "Psychiatrist"
 	jobtype = /datum/job/psychiatrist
 
-	uniform = /obj/item/clothing/under/rank/medical/doctor
+	uniform = /obj/item/clothing/under/retro/medical
 	suit = /obj/item/clothing/suit/storage/labcoat/psych
 	shoes = /obj/item/clothing/shoes/laceup
-	l_ear = /obj/item/radio/headset/headset_med
-	id = /obj/item/card/id/psychiatrist
-	suit_store = /obj/item/flashlight/pen
-	pda = /obj/item/pda/medical
+	id = /obj/item/card/id/away/old/med
+	suit_store = /obj/item/lighter/zippo/blue
+	suit_store = /obj/item/clothing/mask/cigarette/medical_marijuana
 
 /datum/outfit/job/psychiatrist/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
@@ -280,8 +274,8 @@
 	title = "Paramedic"
 	flag = JOB_PARAMEDIC
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_MEDICAL
 	supervisors = "the chief medical officer"
 	department_head = list("Chief Medical Officer")

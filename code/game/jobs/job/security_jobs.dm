@@ -2,8 +2,8 @@
 	title = "Head of Security"
 	flag = JOB_HOS
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_COMMAND | DEP_FLAG_SECURITY
 	supervisors = "the captain"
 	department_head = list("Captain")
@@ -56,8 +56,8 @@
 	title = "Warden"
 	flag = JOB_WARDEN
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SECURITY
 	supervisors = "the head of security"
 	department_head = list("Head of Security")
@@ -101,8 +101,8 @@
 	title = "Detective"
 	flag = JOB_DETECTIVE
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SECURITY
 	supervisors = "the head of security"
 	department_head = list("Head of Security")
@@ -161,39 +161,26 @@
 	title = "Security Officer"
 	flag = JOB_OFFICER
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 7
-	spawn_positions = 7
+	total_positions = 1
+	spawn_positions = 1
 	job_department_flags = DEP_FLAG_SECURITY
 	supervisors = "the head of security"
 	department_head = list("Head of Security")
 	selection_color = "#ffeeee"
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_WEAPONS)
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_COURT, ACCESS_MAINT_TUNNELS, ACCESS_WEAPONS)
-	minimal_player_age = 14
-	exp_map = list(EXP_TYPE_CREW = 600)
-	blacklisted_disabilities = list(DISABILITY_FLAG_BLIND, DISABILITY_FLAG_DEAF, DISABILITY_FLAG_MUTE, DISABILITY_FLAG_DIZZY)
-	missing_limbs_allowed = FALSE
 	outfit = /datum/outfit/job/officer
 	important_information = "Space Law is the law, not a suggestion."
 
 /datum/outfit/job/officer
 	name = "Security Officer"
 	jobtype = /datum/job/officer
-	uniform = /obj/item/clothing/under/rank/security/officer
-	suit = /obj/item/clothing/suit/armor/vest/security
+	uniform = /obj/item/clothing/under/retro/security
+	suit = /obj/item/clothing/suit/armor/vest/old
 	gloves = /obj/item/clothing/gloves/color/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	head = /obj/item/clothing/head/helmet
-	l_ear = /obj/item/radio/headset/headset_sec/alt
-	id = /obj/item/card/id/security
+	head = /obj/item/clothing/head/helmet/old
+	id = /obj/item/card/id/away/old/sec
 	l_pocket = /obj/item/flash
-	suit_store = /obj/item/gun/energy/disabler
-	pda = /obj/item/pda/security
-	backpack_contents = list(
-		/obj/item/restraints/handcuffs = 1
-	)
-	bio_chips = list(/obj/item/bio_chip/mindshield)
-	backpack = /obj/item/storage/backpack/security
-	satchel = /obj/item/storage/backpack/satchel_sec
-	dufflebag = /obj/item/storage/backpack/duffel/security
-
+	r_pocket = /obj/item/restraints/handcuffs
+	suit_store = /obj/item/gun/energy/laser/retro/old

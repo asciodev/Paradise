@@ -2,8 +2,8 @@
 	title = "Captain"
 	flag = JOB_CAPTAIN
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Nanotrasen officials"
 	department_head = list("Nanotrasen Navy Officer")
 	selection_color = "#ccccff"
@@ -60,8 +60,8 @@
 	title = "Head of Personnel"
 	flag = JOB_HOP
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the captain"
 	department_head = list("Captain")
 	selection_color = "#ddddff"
@@ -109,8 +109,8 @@
 	title = "Nanotrasen Representative"
 	flag = JOB_NANO
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the command staff"
 	department_head = list("Captain")
 	selection_color = "#ddddff"
@@ -157,8 +157,8 @@
 	title = "Blueshield"
 	flag = JOB_BLUESHIELD
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Nanotrasen representative"
 	department_head = list("Captain")
 	selection_color = "#ddddff"
@@ -205,8 +205,8 @@
 	title = "Magistrate"
 	flag = JOB_JUDGE
 	department_flag = JOBCAT_ENGSEC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Nanotrasen Supreme Court"
 	department_head = list("Captain")
 	selection_color = "#ddddff"
@@ -253,8 +253,8 @@
 	title = "Internal Affairs Agent"
 	flag = JOB_LAWYER
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_LEGAL
 	supervisors = "the magistrate"
 	department_head = list("Captain")

@@ -3,8 +3,8 @@
 	title = "Quartermaster"
 	flag = JOB_QUARTERMASTER
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SUPPLY | DEP_FLAG_COMMAND
 	supervisors = "the captain"
 	department_head = list("Captain")
@@ -40,8 +40,8 @@
 	title = "Cargo Technician"
 	flag = JOB_CARGOTECH
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SUPPLY
 	supervisors = "the quartermaster"
 	department_head = list("Quartermaster")
@@ -68,8 +68,8 @@
 	title = "Shaft Miner"
 	flag = JOB_MINER
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 6
-	spawn_positions = 8
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SUPPLY
 	supervisors = "the quartermaster"
 	department_head = list("Quartermaster")
@@ -139,8 +139,8 @@
 	title = "Bartender"
 	flag = JOB_BARTENDER
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -200,15 +200,9 @@
 
 	uniform = /obj/item/clothing/under/rank/civilian/chef
 	suit = /obj/item/clothing/suit/chef
-	belt = /obj/item/storage/belt/chef
 	shoes = /obj/item/clothing/shoes/black
 	head = /obj/item/clothing/head/chefhat
-	l_ear = /obj/item/radio/headset/headset_service
-	id = /obj/item/card/id/chef
-	pda = /obj/item/pda/chef
 	backpack_contents = list(
-		/obj/item/eftpos=1,\
-		/obj/item/paper/chef=1,\
 		/obj/item/book/manual/wiki/chef_recipes=1)
 
 /datum/outfit/job/chef/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -224,8 +218,8 @@
 	title = "Botanist"
 	flag = JOB_BOTANIST
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 3
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -259,8 +253,8 @@
 	title = "Clown"
 	flag = JOB_CLOWN
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -351,8 +345,8 @@
 	title = "Mime"
 	flag = JOB_MIME
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -407,8 +401,8 @@
 	title = "Janitor"
 	flag = JOB_JANITOR
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -435,8 +429,8 @@
 	title = "Librarian"
 	flag = JOB_LIBRARIAN
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SERVICE
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
@@ -475,8 +469,8 @@
 	title = "Explorer"
 	flag = JOB_EXPLORER
 	department_flag = JOBCAT_SUPPORT
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the head of personnel"
 	department_head = list("Head of Personnel")
 	selection_color = "#dddddd"

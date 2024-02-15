@@ -2,8 +2,8 @@
 	title = "Research Director"
 	flag = JOB_RD
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_COMMAND | DEP_FLAG_SCIENCE
 	supervisors = "the captain"
 	department_head = list("Captain")
@@ -53,8 +53,8 @@
 	title = "Scientist"
 	flag = JOB_SCIENTIST
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = 1
+	spawn_positions = 1
 	job_department_flags = DEP_FLAG_SCIENCE
 	supervisors = "the research director"
 	department_head = list("Research Director")
@@ -75,24 +75,19 @@
 	name = "Scientist"
 	jobtype = /datum/job/scientist
 
-	uniform = /obj/item/clothing/under/rank/rnd/scientist
-	suit = /obj/item/clothing/suit/storage/labcoat/science
+	uniform = /obj/item/clothing/under/retro/science
 	shoes = /obj/item/clothing/shoes/white
-	l_ear = /obj/item/radio/headset/headset_sci
-	id = /obj/item/card/id/research
-	pda = /obj/item/pda/toxins
-
-	backpack = /obj/item/storage/backpack/science
-	satchel = /obj/item/storage/backpack/satchel_tox
-	dufflebag = /obj/item/storage/backpack/duffel/science
-
+	id = /obj/item/card/id/away/old/sci
+	head = /obj/item/clothing/mask/gas
+	l_pocket = /obj/item/tank/internals/emergency_oxygen
+	r_pocket = /obj/item/food/snacks/monkeycube
 
 /datum/job/roboticist
 	title = "Roboticist"
 	flag = JOB_ROBOTICIST
 	department_flag = JOBCAT_MEDSCI
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	job_department_flags = DEP_FLAG_SCIENCE
 	supervisors = "the research director"
 	department_head = list("Research Director")
